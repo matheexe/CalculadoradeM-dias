@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Calculadora de médias</title>
+</head>
+<body>
+    <header id="container">
+        <p><i class="fa-solid fa-calculator"></i></p>
+        <h1>A Calculadora de Médias é uma ferramenta prática e eficiente
+            para calcular rapidamente a média de diferentes valores.
+            Ela simplifica os cálculos e ajuda a obter resultados precisos em segundos.
+            Experimente!</h1>
+            <a href="#form"id="btnExperimentar">Experimentar</a>
+    </header>
+    <main>
+        <section id="form">
+            <form id="formu">
+                <input id="textArea" type="text" required placeholder="Atividade">
+                <input id="numberArea" type="number" required placeholder="Nota" min="0" max="10">
+                <button id="btnAdicionar" type="submit">Adicionar +</button>
+            </form>
+            <table id="tabela" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>
+                            Nome da atividade:
+                        </th>
+                        <th>
+                            Nota da atividade:
+                        </th>
+                        <th>
+                            Aprovado?
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Atividade 1</td>
+                        <td>7.</td>
+                        <td><img src="" alt="Emoji feliz"></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>
+                            Média final
+                        </td>
+                        <td>
+                            7.
+                        </td>
+                        <td>
+                            <span id="textoResultado">
+                                Aprovado
+                            </span>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <script src="https://kit.fontawesome.com/4e80db4179.js" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    </main>
+</body>
+</html>

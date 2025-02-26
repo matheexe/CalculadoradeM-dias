@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Ruluko&family=Signika+Negative:wght@300..700&display=swap');
+
+body{
+    font-family: "Average Sans", serif;
+    background-color:#080603;
+    color: #eee8de;
+    width: 100%;
+    max-width: 960px;
+}
+
+header#container{
+    margin-top: 18vw;
+    margin-left: 15vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#container h1{
+    font-family: "Average Sans", serif;
+    width: 30vw;
+    font-size: 25px;
+    font-weight: 100;
+    text-align: left;
+}
+
+#container img{
+    width: 6vw;
+}
+
+#container #btnExperimentar{
+    display: flex;
+    justify-content: center;
+    margin-top: 1vw;
+    padding: 1vw;
+    width: 8vw;
+    color: #080603;
+    background-color: #e7a73b;
+    border-radius: 8px;
+    transition: ease 0.3s;
+}
+
+#container #btnExperimentar:hover{
+    background-color: #e7a83b96;
+    transform: translateY(-0.08vw);
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30vw;
+    margin-left: 15vw;
+    background-color: #e7a73b;
+    width: 40vw;
+    height: 20vw;
+    border-radius: 8px;
+    margin-bottom: 10vw;
+}
+
+#formu{
+    display: flex;
+    font-size: 20px;
+    margin-top: 1vw;
+    
+}
+
+#formu #btnAdicionar{
+    margin-left: 2vw;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #eee8de;
+    color: #080603;
+    padding: 0.5vw;
+    transition: ease 0.2s;
+}
+
+#formu #btnAdicionar:hover{
+    background-color: #dbd6cd;
+    
+}
+
+#textArea{
+    padding: 0.5vw;
+    border-radius: 8px;
+    background-color: #eee8de;
+    outline: none;
+    
+}
+
+
+#numberArea{
+    padding: 0.5vw;
+    border-radius: 8px;
+    background-color: #eee8de;
+    outline: none;
+    margin-left: 2vw;
+    width: 5vw;
+}
+
+
+#textArea::placeholder, #numberArea::placeholder{
+    color: #080603;
+}
+
+#tabela th{
+    color: #080603;
+    border-bottom: 1px solid #080603;
+    padding: 16px;
+    font-weight: bold;
+}
+
+#tabela td{
+    padding: 8px 0;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid #0806032c;
+    padding: 16px;
+}
+
+#tabela #textoResultado{
+    font-weight: bold;
+    color: #eee8de;
+    background-color: #080603;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+#aprovado{
+    background-color: #86d52e;
+}
+
+#reprovado{
+    background-color: #cb4f42;
+}
+
+#tabela{
+    width: 100%;
+    color: #080603;
+    margin-top: 1vw;
+    font-size: 16px;
+}
+
+
+header p{
+    font-size: 40px;
+    margin-bottom: 1vw;
+    transition: ease 0.2s;
+}
