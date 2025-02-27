@@ -44,7 +44,7 @@ header#container{
     transform: translateY(-0.08vw);
 }
 
-#form{
+#calculadoraArea{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,19 +52,18 @@ header#container{
     margin-left: 15vw;
     background-color: #e7a73b;
     width: 40vw;
-    height: 20vw;
     border-radius: 8px;
     margin-bottom: 10vw;
 }
 
-#formu{
+#form{
     display: flex;
     font-size: 20px;
     margin-top: 1vw;
     
 }
 
-#formu #btnAdicionar{
+#form #btnAdicionar{
     margin-left: 2vw;
     cursor: pointer;
     border-radius: 8px;
@@ -74,7 +73,7 @@ header#container{
     transition: ease 0.2s;
 }
 
-#formu #btnAdicionar:hover{
+#form #btnAdicionar:hover{
     background-color: #dbd6cd;
     
 }
