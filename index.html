@@ -19,9 +19,10 @@
     </header>
     <main>
         <section id="calculadoraArea">
+            <input id="notaMinima" type="number" step="any" required placeholder="Nota mínima" min="0" max="20">
             <form id="form">
                 <input id="textArea" type="text" required placeholder="Atividade">
-                <input id="numberArea" type="number" required placeholder="Nota" min="0" max="10">
+                <input id="numberArea" type="number" step="any" required placeholder="Nota" min="0" max="20">
                 <button id="btnAdicionar" type="submit">Adicionar +</button>
             </form>
             <table id="tabela" cellspacing="0">
@@ -56,12 +57,12 @@
                         <td>
                             Média final
                         </td>
-                        <td>
-                            7.
+                        <td id="mediafinal">
+                            
                         </td>
                         <td>
                             <p id="textoResultado">
-                                Aprovado
+                                
                             <p>
                         </td>
                     </tr>

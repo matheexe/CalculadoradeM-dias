@@ -51,16 +51,24 @@ header#container{
     margin-top: 30vw;
     margin-left: 15vw;
     background-color: #e7a73b;
-    width: 40vw;
     border-radius: 8px;
     margin-bottom: 10vw;
+}
+
+#notaMinima{
+    padding: 0.5vw;
+    border-radius: 8px;
+    background-color: #eee8de;
+    outline: none;
+    margin-left: 2vw;
+    margin-top: 1vw;
+    width: 8vw;
 }
 
 #form{
     display: flex;
     font-size: 20px;
     margin-top: 1vw;
-    
 }
 
 #form #btnAdicionar{
@@ -97,7 +105,7 @@ header#container{
 }
 
 
-#textArea::placeholder, #numberArea::placeholder{
+#textArea::placeholder, #numberArea::placeholder, #notaMinima::placeholder{
     color: #080603;
 }
 
@@ -118,8 +126,7 @@ header#container{
 
 #tabela #textoResultado{
     font-weight: bold;
-    color: #eee8de;
-    background-color: #080603;
+    color: #080603;
     padding: 8px;
     border-radius: 8px;
 }
