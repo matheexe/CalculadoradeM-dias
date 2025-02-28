@@ -62,7 +62,7 @@ function calculoFinal(){
     }
 
     const media = somaNotas / notas.length;
-    mediaFinal.innerHTML = media;
+    mediaFinal.innerHTML = media.toFixed(2);
     
     if(media >= notaMinima){
         resultado.innerHTML = ('Aprovado');
