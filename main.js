@@ -14,8 +14,6 @@ form.addEventListener('submit', function(e){
     adicionaLinha();
     atualizaTabela();
     calculoFinal();
-    
-    
 });
 
 function adicionaLinha(){
@@ -39,7 +37,6 @@ function adicionaLinha(){
     
         linhas += linha;
     }
-
 
 
     inputNomeAtividade.value = '';
@@ -71,6 +68,5 @@ function calculoFinal(){
         resultado.innerHTML = ('Reprovado');
         resultado.style.backgroundColor = ('#cb4f42');
     }
-
 }
 
